@@ -2,21 +2,24 @@
 .curso-main-container.introduccion
   BannerInterno.text-uppercase(:titulo="'Unidad 2: El Ordenamiento Jurídico Colombiano'" :subTitulo="'INTRODUCCIÓN'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-  
-    p.mb-4 El ordenamiento jurídico de un país es el conjunto de normas que rigen la vida en sociedad, y en Colombia, este sistema se basa en una estructura sólida encabezada por la Constitución Política. Comprender cómo funciona esta organización, su jerarquía normativa y los derechos fundamentales que garantiza es esencial para cualquier estudiante de Derecho, ya que constituye la base de toda actividad jurídica en el país.
 
-    .row.mb-5.mx-0
-      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-left")
-        p.mb-0(data-aos="fade-up") El conocimiento de estos principios no es solo un requisito académico, sino una herramienta fundamental para el ejercicio profesional del derecho. Saber interpretar y aplicar la Constitución y sus normas complementarias permite abordar cualquier caso jurídico con una base sólida. La protección y promoción de los derechos fundamentales son, además, responsabilidades esenciales de los abogados, tanto en el ámbito público como en el privado. Por ejemplo, la defensa de los derechos humanos o la interpretación de normativas que impactan la vida de los ciudadanos son tareas cotidianas en el ejercicio de la abogacía.
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
-        img.h-100(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+    p.mb-4 La interpretación y aplicación del Derecho es fundamental para el ejercicio profesional de cualquier abogado. En esta unidad, el estudiante aprenderá a interpretar normas jurídicas para aplicarlas correctamente en casos concretos, comprendiendo el rol clave de los operadores jurídicos, jueces, abogados y legisladores, en el desarrollo del Derecho en la práctica cotidiana.
 
     .row.mb-4
-      .d-flex.align-items-center
-        div.d-flex.align-items-center.bg-azul.px-3.py-4
-          img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-2.svg', alt='Texto que describa la imagen')
-          p.pe-xl-5.mb-0 En esta unidad, exploraremos los aspectos más relevantes del ordenamiento jurídico colombiano, comenzando por su pilar fundamental: la Constitución Política, que no solo establece la organización del Estado y los principios fundamentales que guían su actuación, sino que también garantiza los derechos fundamentales de todos los ciudadanos.
-    
+      .col-12.col-xl-7(data-aos="fade-right")
+        .bg-azul.p-4.mb-4
+          span Esta unidad es relevante porque enseña a analizar la interpretación de normas jurídicas tanto desde un enfoque teórico como práctico, proporcionando herramientas para entender el papel de los operadores en la construcción y mantenimiento de un sistema jurídico eficiente y justo. Los estudiantes también explorarán el proceso mediante el cual se llevan las normas a la práctica, resolviendo conflictos y garantizando la justicia.
+        p.mb-0 La aplicación correcta del Derecho exige interpretar las leyes con precisión, ya que no siempre son claras. En situaciones de ambigüedad o conflicto entre normas, los operadores jurídicos deben utilizar métodos específicos de interpretación, como la literal, sistemática, histórica y teleológica, para captar la intención del legislador y adaptar las normas a la realidad social. 
+
+      .col-12.col-xl-5.d-none.d-xl-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-1.png', alt='Texto que describa la imagen')
+
+    .row.mb-5.mx-0
+      .d-none.d-xl-block.col-4.px-0(data-aos="fade-right")
+        img.h-100(src='@/assets/curso/unidad/img-2.png', alt='Texto que describa la imagen')
+      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-left")
+        p.mb-0(data-aos="fade-up") Al finalizar esta unidad, el estudiante reconocerá y aplicará diversos métodos de interpretación y comprenderá el papel de los operadores jurídicos en la creación y aplicación del Derecho. La unidad se divide en tres temas: métodos de interpretación, aplicación en casos concretos y funciones de los operadores. La participación en actividades y lecturas asignadas será clave para consolidar los conocimientos adquiridos y aplicarlos en la resolución de problemas jurídicos. 
+
 </template>
 
 <script>

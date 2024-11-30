@@ -21,10 +21,10 @@
           .col-xl-7.info-section
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title.text-uppercase FUNDAMENTACIÓN JURÍDICA
-              h1.home-title.mb-4.text-uppercase El Ordenamiento Jurídico Colombiano
-              p.descripcion.mb-4 Esta unidad explora el ordenamiento jurídico colombiano, centrado en la Constitución Política de 1991 como norma suprema. Se abordan su estructura, jerarquía normativa y derechos fundamentales. Este conocimiento resulta esencial para interpretar y aplicar el Derecho en la práctica, permitiendo a los estudiantes comprender la importancia de la Constitución en la organización del Estado y en la garantía de derechos. Además, proporciona herramientas para la defensa de derechos y la resolución de conflictos normativos en el ejercicio profesional del derecho.
+              h1.home-title.mb-4.text-uppercase Interpretación y aplicación del derecho
+              p.descripcion.mb-4 La interpretación jurídica busca comprender el verdadero alcance de las normas, esencial para aplicar justicia y proteger derechos. Existen métodos clásicos como el literal, sistemático, histórico y teleológico, cada uno con enfoques específicos para asegurar coherencia y justicia en el sistema. Los métodos modernos, además, priorizan derechos humanos y alineación constitucional. La correcta aplicación del derecho incluye análisis de hechos, selección e interpretación de normas, y resolución justa. Los operadores jurídicos, como jueces, abogados y legisladores, colaboran en crear, interpretar y aplicar las leyes, adaptándose a los desafíos sociales actuales.
 
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold El derecho convierte la justicia en realidad. Que la pasión por aprenderlo inspire a construir una sociedad más justa.
+              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold La justicia no es un destino, sino un camino que construimos con cada acto de integridad y compromiso.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'tema1' }")

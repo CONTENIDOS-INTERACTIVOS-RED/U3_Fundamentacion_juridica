@@ -29,32 +29,38 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Constitución ',
+        titulo: 'Métodos de interpretación del derecho ',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Historia de la Constitución de 1991',
+            titulo: 'Métodos clásicos de interpretación',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Principios Fundamentales de la Constitución',
+            titulo: 'Método histórico',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Derechos y deberes constitucionales',
+            titulo: 'Método teleológico o finalista',
             hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Mecanismos de protección de la Constitución',
+            titulo: 'Métodos complementarios y doctrinas modernas',
             hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Casos prácticos de interpretación en Colombia',
+            hash: 't_1_5',
           },
         ],
       },
@@ -62,26 +68,45 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Sistema jurídico colombiano',
+        titulo: 'Aplicación del derecho en casos concretos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Leyes estatutarias, leyes orgánicas y leyes ordinarias',
+            titulo: 'Análisis de los hechos',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Decretos ',
+            titulo: 'Selección de la norma aplicable',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Normatividad en el plano local',
+            titulo: 'Interpretación de la norma en relación con los hechos',
             hash: 't_2_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.4',
+            titulo: 'Resolución del caso',
+            hash: 't_2_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.5',
+            titulo:
+              'Garantía de los derechos fundamentales en la aplicación del derecho',
+            hash: 't_2_5',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.6',
+            titulo: 'Ejemplos prácticos de aplicación del derecho',
+            hash: 't_2_6',
           },
         ],
       },
@@ -89,23 +114,10 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Los derechos fundamentales',
+        titulo:
+          'Función de los operadores jurídicos: jueces, abogados y legisladores',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Concepto y clasificación ',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo:
-              'La importancia de los derechos fundamentales en un Estado social de derecho',
-            hash: 't_3_2',
-          },
-        ],
+        subMenu: [],
       },
     ],
     subMenu: [
@@ -133,7 +145,7 @@ export default {
       {
         icono: 'fas fa-file-download',
         titulo: 'Descargar PDF',
-        download: 'downloads/Fundamentacion_Juridica_U2.pdf',
+        download: 'downloads/Fundamentacion_Juridica_U3.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -148,11 +160,6 @@ export default {
     ],
   },
   referencias: [
-    {
-      referencia:
-        'Alexy, R., & Pulido, C. B. (2007). Teoría de los derechos fundamentales.',
-      link: '',
-    },
     {
       referencia:
         'Atienza, M. (2013). Curso de argumentación jurídica. Editorial Trotta, S.A.',
@@ -170,37 +177,13 @@ export default {
     },
     {
       referencia:
-        'Dussan, C., Escobar, A., Kahn, G., & Núñez, L. (2002). El constitucionalismo medieval y su impacto en las modernas concepciones de derechos. Editorial Jurídica.',
-      link: '',
-    },
-    {
-      referencia:
-        'Ferrajoli, L. (2011). Principia iuris: Teoría del derecho y de la democracia. La sintaxis del derecho. Trotta.',
-      link: '',
-    },
-    {
-      referencia:
         'González Jácome, J. (2009). El problema de las fuentes del derecho: una perspectiva desde la argumentación jurídica. Red Vniversitas.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/32739',
     },
     {
       referencia:
-        'González Madrid, M. (2018). El significado de la Constitución: Breve revisión del concepto y de su relevancia a la luz del principialismo y el garantismo. Polis, 14(1), 43-80.',
-      link: '',
-    },
-    {
-      referencia:
-        'Guastini, R. (1999). Sobre el concepto de Constitución. Cuestiones Constitucionales, 1, 161-176.',
-      link: '',
-    },
-    {
-      referencia:
-        'Hernandez Quintero, H. A. Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). Lecciones de introducción al derecho. Universidad de Ibagué.',
+        'Hernandez Quintero, H. A., Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). Lecciones de introducción al derecho. Universidad de Ibagué.',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70168',
-    },
-    {
-      referencia: 'Loewenstein, K. (1979). Teoría de la Constitución. Ariel.',
-      link: '',
     },
     {
       referencia:
