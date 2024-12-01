@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'Unidad 2: El Ordenamiento Jurídico Colombiano'" :subTitulo="'2. Sistema jurídico colombiano'")
+  BannerInterno.text-uppercase(:titulo="'unidad 3: Interpretación y aplicación del derecho'" :subTitulo="'2. Aplicación del derecho en casos concretos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
     p.mb-4 La interpretación del derecho es un paso esencial y previo para aplicar correctamente las normas jurídicas en situaciones específicas. Este proceso busca “traducir” el lenguaje normativo para extraer su verdadero significado, permitiendo una aplicación justa y coherente. Solo al entender el propósito y sentido de una norma se puede proceder a aplicarla en situaciones reales de manera adecuada.

@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno.text-uppercase(:titulo="'Unidad 2: El Ordenamiento Jurídico Colombiano'" :subTitulo="'1. Constitución'")
+  BannerInterno.text-uppercase(:titulo="'unidad 3: Interpretación y aplicación del derecho'" :subTitulo="'1. Métodos de interpretación del derecho'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
     .row.mb-5
