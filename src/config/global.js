@@ -119,6 +119,11 @@ export default {
         desarrolloContenidos: true,
         subMenu: [],
       },
+      {
+        nombreRuta: 'sintesis',
+        titulo: 'Síntesis',
+        desarrolloContenidos: true,
+      },
     ],
     subMenu: [
       // {
@@ -143,129 +148,173 @@ export default {
         nombreRuta: 'referencias',
       },
       {
-        icono: 'fas fa-file-download',
-        titulo: 'Descargar PDF',
-        download: 'downloads/Fundamentacion_Juridica_U3.pdf',
-      },
-      {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
-      },
-      {
-        icono: 'far fa-registered',
-        titulo: 'Síntesis',
-        nombreRuta: 'sintesis',
       },
     ],
   },
   referencias: [
     {
       referencia:
-        'Atienza, M. (2013). Curso de argumentación jurídica. Editorial Trotta, S.A.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/61319',
+        'Congreso de la República de Colombia. (1887). Ley 57 de 1887, por la cual se expide el Código Civil. Diario Oficial No. 733, de 26 de mayo de 1887.',
+      link: '',
     },
     {
       referencia:
-        'Carrasco Perera, Á. & González Carrasco, M. D. C. (2018). Introducción al Derecho y fundamentos de Derecho privado (2 ed.). Difusora Larousse - Editorial Tecnos.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/123141',
+        'Congreso de la República de Colombia. (1989). Decreto 624 de 1989, por el cual se expide el Estatuto Tributario de Colombia. Diario Oficial No. 38.756, de 30 de marzo de 1989.',
+      link: '',
     },
     {
       referencia:
-        'Carretero Sanchez, S. (2015). Nueva introducción a la teoría del derecho. Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/60943',
+        'Congreso de la República de Colombia. (2011). Ley 1448 de 2011, Ley de Víctimas y Restitución de Tierras. Diario Oficial No. 48.096, de 10 de junio de 2011.',
+      link: '',
     },
     {
       referencia:
-        'González Jácome, J. (2009). El problema de las fuentes del derecho: una perspectiva desde la argumentación jurídica. Red Vniversitas.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/32739',
+        'Constitución Política de Colombia. (1991). Constitución Política de Colombia. Diario Oficial No. 114. Congreso de la República de Colombia.',
+      link: 'https://www.constitucioncolombia.com/constitucion-de-1991',
     },
     {
       referencia:
-        'Hernandez Quintero, H. A., Gómez Peña, G. E. & María Cristina Solano de Ojeda. (2016). Lecciones de introducción al derecho. Universidad de Ibagué.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/70168',
+        'Corte Constitucional de Colombia. (2003). Sentencia C-551 de 2003.',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2003/C-551-03.htm',
     },
     {
       referencia:
-        'Lorca Martín de Villodres, M. I. (2017). El concepto de derecho de un siglo: su perspectiva iusfilosófica. Dykinson.',
-      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/58832',
+        'Corte Constitucional de Colombia. (2006). Sentencia C-355 de 2006.',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2006/C-355-06.htm',
+    },
+    {
+      referencia:
+        'Corte Constitucional de Colombia. (2008). Sentencia T-760 de 2008.',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2008/T-760-08.htm',
+    },
+    {
+      referencia:
+        'Corte Constitucional de Colombia. (2016). Sentencia T-622 de 2016.',
+      link:
+        'https://www.corteconstitucional.gov.co/relatoria/2016/T-622-16.htm',
+    },
+    {
+      referencia:
+        'Kelsen, H. (1934). Teoría pura del derecho. (Traducción al español: Roberto J. Vernengo). México: Universidad Nacional Autónoma de México.',
+      link: '',
+    },
+    {
+      referencia:
+        'Montesquieu, C. (1748). El espíritu de las leyes. (Edición consultada: Fondo de Cultura Económica, 2010).',
+      link: '',
+    },
+    {
+      referencia:
+        'Savigny, F. C. von. (1840). Sistema del Derecho Romano Actual. (Edición en español: Reus, 2011).',
+      link: '',
     },
   ],
   glosario: [
     {
-      termino: 'Acción de tutela',
+      termino: 'Abogado',
       significado:
-        'Mecanismo judicial en Colombia que permite a los ciudadanos proteger de forma inmediata sus derechos fundamentales cuando estos son vulnerados',
+        'Profesional del derecho que defiende y representa los intereses de sus clientes ante los tribunales o en otros contextos legales.',
     },
     {
-      termino: 'Bloque de constitucionalidad',
+      termino: 'Aplicación del derecho',
       significado:
-        'Conjunto de normas y tratados internacionales de derechos humanos que, al ser ratificados por Colombia, se integran en el sistema jurídico con el mismo valor que la Constitución',
+        'Proceso mediante el cual se llevan las normas jurídicas a la práctica, resolviendo conflictos y garantizando la justicia en casos concretos.',
     },
     {
-      termino: 'Constitución',
+      termino: 'Derecho consuetudinario',
       significado:
-        'Norma suprema del Estado que establece los derechos fundamentales, la estructura del Estado y los principios rectores de la sociedad',
+        'Sistema de normas basadas en costumbres y tradiciones, transmitido oralmente y aplicado en comunidades o sociedades sin leyes escritas.',
     },
     {
-      termino: 'Control constitucional',
+      termino: 'Derecho romano',
       significado:
-        'Proceso mediante el cual la corte constitucional asegura que las leyes y actos administrativos estén en conformidad con la constitución',
+        'Sistema legal desarrollado en la antigua Roma, que sentó las bases para gran parte del derecho occidental moderno.',
     },
     {
-      termino: 'Decreto',
+      termino: 'Derecho canónico',
       significado:
-        'Norma expedida por el Presidente de la República que desarrolla o reglamenta aspectos específicos de la ley',
+        'Conjunto de normas que regulan la Iglesia Católica y que influyó en el desarrollo del derecho civil en la Edad Media.',
     },
     {
-      termino: 'Derecho',
+      termino: 'Equidad',
       significado:
-        'Sistema de normas jurídicas que regula la conducta humana en sociedad y garantiza la convivencia pacífica y el respeto a los derechos',
-    },
-    {
-      termino: 'Derechos fundamentales',
-      significado:
-        'Derechos inherentes a la dignidad humana, protegidos por la Constitución y necesarios para el desarrollo integral de las personas',
-    },
-    {
-      termino: 'Doctrina',
-      significado:
-        'Conjunto de estudios y opiniones de juristas sobre la interpretación de las normas, que influye en la práctica judicial y legislativa aunque no sea vinculante',
-    },
-    {
-      termino: 'Estado Social de Derecho',
-      significado:
-        'Modelo de Estado que busca garantizar justicia social, derechos humanos y equidad en la sociedad, cumpliendo con los principios de legalidad y derechos fundamentales',
+        'Principio jurídico que busca la justicia en cada caso concreto, permitiendo una interpretación flexible de la ley para adaptarse a las circunstancias específicas.',
     },
     {
       termino: 'Interpretación jurídica',
       significado:
-        'Proceso mediante el cual se determina el sentido y alcance de las normas jurídicas para su correcta aplicación',
-    },
-    {
-      termino: 'Jerarquía normativa',
-      significado:
-        'Orden de prevalencia entre normas jurídicas que establece qué normas tienen mayor autoridad en el sistema legal',
+        'Proceso por el cual los jueces, abogados y otros operadores jurídicos buscan entender el verdadero significado de las normas legales.',
     },
     {
       termino: 'Jurisprudencia',
       significado:
-        'Conjunto de decisiones y criterios establecidos por los tribunales, especialmente las altas cortes, que orientan la interpretación y aplicación de las leyes',
+        'Conjunto de decisiones judiciales que sirven de referencia para la interpretación de las leyes en casos futuros.',
     },
     {
-      termino: 'Ley estatutaria',
+      termino: 'Jurisconsulto',
       significado:
-        'Ley especial que regula materias relacionadas con derechos fundamentales y participación ciudadana, sometida a un proceso de aprobación y control constitucional más riguroso',
+        'En el Derecho Romano, experto en derecho que brindaba asesoría legal y establecía precedentes interpretativos.',
     },
     {
-      termino: 'Precedente judicial',
+      termino: 'Juez',
       significado:
-        'Decisiones previas de los tribunales que sirven como referencia para resolver casos futuros de manera consistente',
+        'Funcionario judicial encargado de interpretar y aplicar las leyes en la resolución de conflictos en casos específicos.',
     },
     {
-      termino: 'Soberanía popular',
+      termino: 'Legislador',
       significado:
-        'Principio constitucional que establece que el poder del Estado emana del pueblo, quien lo ejerce mediante mecanismos de participación democrática',
+        'Miembro de una asamblea legislativa encargado de crear y modificar las leyes que constituyen el marco legal de una sociedad.',
+    },
+    {
+      termino: 'Método histórico',
+      significado:
+        'Técnica de interpretación jurídica que analiza el contexto y las razones que motivaron la creación de una norma.',
+    },
+    {
+      termino: 'Método literal o gramatical',
+      significado:
+        'Enfoque de interpretación que se basa en el sentido textual y literal de las palabras de la norma.',
+    },
+    {
+      termino: 'Método sistemático',
+      significado:
+        'Método de interpretación que considera la norma dentro del sistema jurídico en su conjunto, buscando coherencia con otras leyes.',
+    },
+    {
+      termino: 'Método teleológico',
+      significado:
+        'Enfoque interpretativo que busca entender el propósito o fin social de la norma para aplicarla de manera que cumpla su objetivo.',
+    },
+    {
+      termino: 'Norma jurídica',
+      significado:
+        'Regla de carácter general que regula el comportamiento de las personas en una sociedad y cuya observancia es obligatoria.',
+    },
+    {
+      termino: 'Operador jurídico',
+      significado:
+        'Persona o institución que participa en la creación, interpretación y aplicación del derecho, como jueces, abogados y legisladores.',
+    },
+    {
+      termino: 'Precedente',
+      significado:
+        'Decisión judicial que sirve como modelo o referencia para resolver casos similares en el futuro.',
+    },
+    {
+      termino: 'Principios generales del derecho',
+      significado:
+        'Fundamentos éticos y normativos que orientan la interpretación y aplicación del derecho, como la justicia y la equidad.',
+    },
+    {
+      termino: 'Supremacía constitucional',
+      significado:
+        'Principio que establece que la Constitución es la norma más alta y todas las demás deben alinearse con sus disposiciones.',
     },
   ],
   complementario: [

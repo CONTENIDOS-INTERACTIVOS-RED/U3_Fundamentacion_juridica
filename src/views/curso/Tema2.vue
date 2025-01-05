@@ -103,13 +103,32 @@
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-22.png', alt='Texto que describa la imagen')
 
-    .row.mb-4
+    .row.mb-5
       .col-10.mx-auto(data-aos="fade-up")
         div.d-flex.align-items-center.bg-azul.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-23.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0 La aplicación del derecho es un proceso de justicia que requiere un análisis de los hechos, interpretación de las normas y garantía de los derechos fundamentales. Este procedimiento asegura que el derecho funcione como una herramienta de resolución de conflictos y protección de los individuos, reflejando los principios de justicia, equidad y legalidad que sustentan el sistema jurídico.
 
-
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.corteconstitucional.gov.co/relatoria/2003/C-551-03.htm") Corte Constitucional de Colombia. (2003). Sentencia C-551 de 2003.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.corteconstitucional.gov.co/relatoria/2008/T-760-08.htm") Corte Constitucional de Colombia. (2008). Sentencia T-760 de 2008.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://www.corteconstitucional.gov.co/relatoria/2016/T-622-16.htm") Corte Constitucional de Colombia. (2016). Sentencia T-622 de 2016.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/srda0oaqP8s") Manyari, F. (2020). El sistema nacional de defensa jurídica del estado [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

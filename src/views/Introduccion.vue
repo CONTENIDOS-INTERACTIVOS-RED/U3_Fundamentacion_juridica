@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno.text-uppercase(:titulo="'Unidad 2: El Ordenamiento Jurídico Colombiano'" :subTitulo="'INTRODUCCIÓN'")
+  BannerInterno.text-uppercase(:titulo="'unidad 3: Interpretación y aplicación del derecho'" :subTitulo="'INTRODUCCIÓN'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
     p.mb-4 La interpretación y aplicación del Derecho es fundamental para el ejercicio profesional de cualquier abogado. En esta unidad, el estudiante aprenderá a interpretar normas jurídicas para aplicarlas correctamente en casos concretos, comprendiendo el rol clave de los operadores jurídicos, jueces, abogados y legisladores, en el desarrollo del Derecho en la práctica cotidiana.

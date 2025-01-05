@@ -20,7 +20,7 @@
 
     p.mb-4 Los métodos clásicos representan enfoques tradicionales que se centran en el texto de la norma, su contexto jurídico, histórico y los fines de la ley. A continuación, se presentan los principales métodos clásicos:
     h2 Método literal o gramatical
-    p.mb-4 Este método se enfoca en el análisis literal del texto de la norma, considerando el significado de las palabras y su estructura gramatical. El Código Civil Colombiano (art. 27) establece que, si la redacción de la norma es clara, debe seguir el sen tido literal sin recurrir a interpretaciones adicionales. 
+    p.mb-4 Este método se enfoca en el análisis literal del texto de la norma, considerando el significado de las palabras y su estructura gramatical. El Código Civil Colombiano (art. 27) establece que, si la redacción de la norma es clara, debe seguir el sentido literal sin recurrir a interpretaciones adicionales. 
 
     .bg-fondo-2.bg-full-width
       div.px-5.pb-md-3.py-4
@@ -137,11 +137,35 @@
       .col-12.col-lg-5.d-none.d-lg-block(data-aos="fade-left")
         img(src='@/assets/curso/unidad/img-14.png', alt='Texto que describa la imagen')
 
-    .row.mb-4
+    .row.mb-5
       .col-10.mx-auto(data-aos="fade-up")
         div.d-flex.align-items-center.bg-azul.px-3.py-4
           img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-15.svg', alt='Texto que describa la imagen')
           p.pe-xl-5.mb-0 La interpretación del derecho no se limita a una lectura literal, sino que implica un análisis profundo de su contexto, valores y objetivos. Los métodos de interpretación, tanto clásicos como modernos, permiten aplicar las leyes de forma justa y coherente, protegiendo los derechos de todos y adaptando el sistema jurídico a las necesidades sociales.
+
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/61319") Atienza, M. (2013). Curso de argumentación jurídica. Editorial Trotta.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/58234") Buenaga Ceballos, O. (2016). Metodología del razonamiento jurídico-práctico. Dykinson.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/32739") González Jácome, J. (2009). El problema de las fuentes del derecho. Red Vniversitas.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/111614") Vallejo, G (2018). Métodos alternativos de resolución de conflictos en derecho romano. Dykinson.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/JKJkgts4kpA") Campana, S. (2020). Interpretación del derecho [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
 </template>
 

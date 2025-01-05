@@ -9,7 +9,7 @@
         TarjetaAudio.color-primario.bg-white.mb-0(
           texto="Los operadores jurídicos"
           tiempo
-          :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+          :audio="require('../../assets/componentes/audios/Podcast_Fundamentación jurídica_UnidadIII.mp3')"
           @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
@@ -154,13 +154,38 @@
               img.mb-4(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
               div.mb-4
                 p.text-bold.text-center Ejemplo 2
-                p.text-small.px-4.pb-2 Sentencia C-355 de 2006 - Derechos Reproductivos de las Mujeres: La Corte Constitucional interpretó el Código Penal y despenalizó el aborto en tres circunstancias específicas. Esta decisión obliga a las instituciones de salud y al sistema judicial a proteger los derechos de las mujeres en casos permitidos
+                p.text-small.px-4.pb-2 Sentencia C-355 de 2006 - Derechos Reproductivos de las Mujeres: La Corte Constitucional interpretó el Código Penal y despenalizó el aborto en tres circunstancias específicas. Esta decisión obliga a las instituciones de salud y al sistema judicial a proteger los derechos de las mujeres en casos permitidos.
 
-    .row.mb-0
+    .row.mb-5
       .col-10.mx-auto.bg-amarillo-1.p-4(data-aos="fade-up")
         span Los operadores jurídicos cumplen funciones fundamentales en el sistema de justicia: los legisladores crean leyes, los abogados defienden los derechos de las personas y los jueces interpretan y aplican las leyes en casos específicos. Esta colaboración garantiza un sistema jurídico eficiente y justo que protege los derechos y promueve la justicia en la sociedad.
 
+    .bg-full-width.border-top-9-azul
+      .px-4.px-md-5.pt-5.pb-0
+        h2 Material complementario
+        .row
+          .col-12.col-md-6.col-lg-8
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/61302") Ferrajoli, L. (2011). Teoría del derecho. Editorial Trotta.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/46396") Almoguera, C. (2009). Teoría general del derecho. Editorial Reus.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/ereader/tecnologicadeloriente/66595") Morello, A. (2010). Formación de los operadores jurídicos. Librería Editora platense.
+            p.d-flex.my-4
+              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
+              a.text-small.text-primary(target="_blank", href="https://youtu.be/4K7n03GX6FQ") Gonzales, P. (2020). Los distintos sistemas jurídicos y la independencia judicial [Vídeo]
+          .col-12.col-md-6.col-lg-3
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
 
+    
+    .bg-full-width.border-top.actividad(style="background-color: #ebf1f5; border-top: 5px solid #f5c145 !important")
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
 
 </template>
 
@@ -171,6 +196,80 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Interpretación y Aplicación del Derecho',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto:
+            'El análisis de los hechos es irrelevante para la aplicación del Derecho en casos concretos.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto:
+            'Los abogados no participan en la interpretación del Derecho en beneficio de sus clientes.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            'Los legisladores crean leyes y también participan en la interpretación judicial.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'La interpretación conforme a la Constitución asegura que las normas respeten los derechos fundamentales.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: true },
+            { id: 'b', texto: 'Falso', esCorrecta: false },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            'Los operadores jurídicos deben ignorar los principios constitucionales al interpretar las normas.',
+          barajarRespuestas: true,
+          opciones: [
+            { id: 'a', texto: 'Verdadero', esCorrecta: false },
+            { id: 'b', texto: 'Falso', esCorrecta: true },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_reprobado:
+        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
